@@ -1,0 +1,17 @@
+{
+  "name": "dom-based-xss-static-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint '**/*.html'"
+  },
+  "author": "Sami Salamati",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.29.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-no-unsanitized": "^4.0.2"
+  }
+}
